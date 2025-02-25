@@ -60,6 +60,8 @@ struct ImagePlaygroundView: View {
                     }
                     .padding()
                 }
+                TextFieldView()
+                    .padding(3)
             }
         }
     }
