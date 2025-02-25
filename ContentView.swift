@@ -8,11 +8,11 @@ struct ImagePlaygroundView: View {
             
             VStack {
                 HStack {
-                    Button("キャンセル") {}
+                    Button("Cancel") {}
                         .foregroundColor(.gray)
                         .padding()
                     Spacer()
-                    Button("完了") {}
+                    Button("Done") {}
                         .foregroundColor(.yellow)
                         .padding()
                 }
